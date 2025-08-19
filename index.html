@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>🌡️ Weatherly</title>
+        <script>
+            (function () {
+                const ls = localStorage.getItem("theme");
+                const prefersDark = window.matchMedia(
+                    "(prefers-color-scheme: dark)"
+                ).matches;
+                const shouldDark = ls ? ls === "dark" : prefersDark;
+                if (shouldDark) document.documentElement.classList.add("dark");
+            })();
+        </script>
+    </head>
+    <body
+        class="antialiased bg-zinc-50 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100"
+    >
+        <div id="root"></div>
+        <script type="module" src="/src/main.jsx"></script>
+    </body>
+</html>
