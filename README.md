@@ -18,23 +18,26 @@ API**.
 
 ## 💡 Features
 
--   🌍 Search weather by city name
--   🌡️ Displays temperature, humidity, and weather condition
--   ⛅ Dynamic weather icons for better visualization
--   ❌ Clear search to remove weather card
--   ⚡ Fast and responsive UI built with **React + Tailwind**
--   🔑 Secure API handling with environment variables
+-   🌍 Search weather by city name  
+-   🌡️ Displays temperature, humidity, and weather condition  
+-   ⛅ Dynamic weather icons for better visualization  
+-   ❌ Clear search to remove weather card and stored data  
+-   💾 Stores searched weather data in **localStorage** (persists until cleared)  
+-   🔄 Weather auto-refreshes every **30 minutes** if the tab is open  
+-   🌙 Light/Dark mode support  
+-   ⚡ Fast and responsive UI built with **React + Tailwind**  
+-   🔑 Secure API handling with environment variables  
 
 ------------------------------------------------------------------------
 
 ## 🛠️ Tech Stack
 
--   **Vite** - Fast React bundler
--   **React** - Component-based UI
--   **Tailwind CSS** - Utility-first styling
--   **Lucide Icons** - Weather icons
--   **OpenWeather API** - Real-time weather data
--   **JavaScript (ES6+)** - App logic
+-   **Vite** – Fast React bundler
+-   **React** – Component-based UI
+-   **Tailwind CSS** – Utility-first styling
+-   **Lucide Icons** – Weather icons
+-   **OpenWeatherMap API** – Real-time weather data
+-   **JavaScript (ES6+)** – App logic
 
 ------------------------------------------------------------------------
 
